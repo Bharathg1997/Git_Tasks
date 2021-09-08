@@ -109,6 +109,9 @@ git merge branch1
      •	To solve this goto the file1 remove the >>>>>,====,<<<<< symbols and then add file ,commit file the conflicts will be resolved
                      git add filename
                      git commit -m “message”
+      <<<<<<<: Indicates the start of the lines that had a merge conflict.
+      =======: Indicates separation of the two conflicting changes.
+      >>>>>>>: Indicates the end of the lines that had a merge conflict.                                                                 
 rebase git merge:
 •	create file1, file4 in branch1
 •	add and commit file
